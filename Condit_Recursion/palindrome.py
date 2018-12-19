@@ -27,8 +27,8 @@ def gcd(a,b):
 	gcd = 0
 	for i in range(1,smaller+1):
 		if smaller%i==0 and bigger%i==0:
-			gcd = i
-	return gcd
+			
 
-print(gcd(12,32)) 
+
+
 
